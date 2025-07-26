@@ -24,11 +24,11 @@ crearTarea.addEventListener('click', (e) => {
     
         newBtnSi.classList.add('tarea-completada', 'hijo');
         imgSi.alt = 'tarea realizada';
-        imgSi.src = 'imgs/check.svg'
+        imgSi.src = 'imgs/check.svg';
     
         newBtnNo.classList.add('tarea-eliminada', 'hijo');
         imgNo.alt = 'eliminar tarea';
-        imgNo.src = 'imgs/trash.svg'
+        imgNo.src = 'imgs/trash.svg';
     
         //Agregando listeners
         newBtnNo.addEventListener('click', () =>{
