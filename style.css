@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fondo{
+    display: grid;
+    min-width: 100vw;
+    width: auto;
+    min-height: 100vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background: url(/imgs/fondo-azul-reja.jpg) no-repeat center center/cover;
+    background-attachment: fixed; /*Esta propiedad hace que la imagen de fondo permanezca fija en su posición, incluso cuando el contenido crece o el usuario hace scroll.*/
+}
+
+#contenedor{
+    display: grid;
+    width: 40vw;
+    min-width: 500px;
+    height: auto;
+    min-height: 40vh;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid black;
+    flex-grow: 1;
+}
+
+#titulo{
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.contorno{
+    width: 400px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+#crear-tarea {
+    text-align: center;
+    width: 130px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 5px solid rgb(68, 0, 255);
+    background-color: rgb(68, 0, 255);
+    color: white;
+    font-size: 1rem;
+    user-select: none;
+    cursor: pointer;
+}
+
+.tarea{
+    display: flex;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 8, 148);
+    border: 5px solid rgb(17, 8, 148); 
+    user-select: none;
+    
+}
+ul{
+    list-style-type: none;
+}
+
+.hijo{
+    margin: 5px;
+}
+
+.completada{
+    border-color: black;
+    background-color: black;
+}
+.texto-completado{
+    text-decoration: line-through;
+}
+
+.tarea-completada{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    background-color: rgb(80, 212, 80);
+    border-radius: 5px;
+    border: 2px solid rgb(80, 212, 80);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tarea-eliminada{
+    width: 40px;
+    height: 30px;
+    padding: 3px;
+    background-color: rgb(212, 80, 97);
+    border: 2px solid rgb(212, 80, 97);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.texto-tarea{
+    width: 250px;
+    max-width: 250px;
+    text-align: justify;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.boton-realizado{
+    border-color: gray;
+    background-color: gray;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    background: no-repeat center center/cover;
+}
