@@ -12,7 +12,7 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    background: url(/imgs/fondo-azul-reja.jpg) no-repeat center center/cover;
+    background: url(imgs/fondo-azul-reja.jpg) no-repeat center center/cover;
     background-attachment: fixed; /*Esta propiedad hace que la imagen de fondo permanezca fija en su posición, incluso cuando el contenido crece o el usuario hace scroll.*/
 }
 
